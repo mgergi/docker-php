@@ -1,0 +1,36 @@
+version: '3'
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - 127.0.0.1:8081:80/tcp
+    volumes:
+      - ./nginx_site.conf:/etc/nginx/conf.d/default.conf
+      - webdir:/www:ro
+    depends_on:
+      - php
+    restart: always
+  php:
+    image: mgergi/php-fpm:mediawiki
+    environment:
+      WWW_UID: 1001
+      WWW_GID: 1001
+    volumes:
+      - ./php_pool.conf:/usr/local/etc/php-fpm.d/www.conf
+      - webdir:/www
+    depends_on:
+      - sql
+    restart: always
+  sql:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: Tn23HiirB0EeB9ZBAibarsFLxuUCrF7B
+      MYSQL_USER: wikiadmin
+      MYSQL_PASSWORD: 1BIq6UlSmKfQTSNEzZZ4X7Q2hhnSJUrd
+      MYSQL_DATABASE: wiki
+    volumes:
+      - db_dir:/var/lib/mysql
+    restart: always
+volumes:
+  db_dir:
+  webdir:
