@@ -1,8 +1,11 @@
 # Supported tags and respective `Dockerfile` links
 
-- `7.1.7-alpine`, `7.1-alpine`, `7-alpine`, `alpine`, `7.1.7`, `7.1`, `7`, `latest` [(*7-alpine/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/7-alpine/Dockerfile)
-- `7.1.7-alpine-grav`, `7.1-alpine-grav`, `7-alpine-grav`, `alpine-grav`, `7.1.7-grav`, `7.1-grav`, `7-grav`, `grav` [(*7-alpine-grav/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/7-alpine-grav/Dockerfile)
-- `7.1.7-alpine-mediawiki`, `7.1-alpine-mediawiki`, `7-alpine-mediawiki`, `alpine-mediawiki`, `7.1.7-mediawiki`, `7.1-mediawiki`, `7-mediawiki`, `mediawiki` [(*7-alpine-mediawiki/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/7-alpine-mediawiki/Dockerfile)
+- `7.1.7-alpine`, `7.1-alpine`, `7-alpine`, `alpine`, `7.1.7`, `7.1`, `7`, `latest` [(*7.1.7-alpine/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/7.1.7-alpine/Dockerfile)
+- `7.1.7-alpine-grav`, `7.1-alpine-grav`, `7-alpine-grav`, `alpine-grav`, `7.1.7-grav`, `7.1-grav`, `7-grav`, `grav` [(*7.1.7-alpine-grav/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/7.1.7-alpine-grav/Dockerfile)
+- `7.1.7-alpine-mediawiki`, `7.1-alpine-mediawiki`, `7-alpine-mediawiki`, `alpine-mediawiki`, `7.1.7-mediawiki`, `7.1-mediawiki`, `7-mediawiki`, `mediawiki` [(*7.1.7-alpine-mediawiki/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/7.1.7-alpine-mediawiki/Dockerfile)
+- `5.6.30-jessie-mediawiki`, `5.6-jessie-mediawiki`, `5-jessie-mediawiki`, `jessie-mediawiki`, `5.6.30-mediawiki`, `5.6-mediawiki`, `5-mediawiki` [(*5.6.30-jessie-mediawiki/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/5.6.30-jessie-mediawiki/Dockerfile)
+
+- `5.4.45-wheezy-mediawiki`, `5.4-wheezy-mediawiki`, `wheezy-mediawiki`, `5.4.45-mediawiki`, `5.4-mediawiki`, [(*5.4.45-wheezy-mediawiki/Dockerfile*)](https://github.com/mgergi/docker-php/blob/master/5.4.45-wheezy-mediawiki/Dockerfile)
 
 
 # How to use this image.
